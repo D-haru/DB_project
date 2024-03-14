@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>공공혜택사업</title>
+    <link rel="stylesheet" href="css/mypage_css.css">
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div id="logo">
+          <a href="index.html">
+            <h1>공공혜택사업</h1>
+          </a>
+        </div>
+        <nav>
+          <ul id="topMenu">
+            <li><a href="login.html">로그인</a></li>
+            <li><a href="join.html">회원가입</a></li>
+            <li><a href="mypage.html">마이페이지</a></li>
+            <li><a href="allBenefit.html">전체혜택</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="contents">
+        <h1>마이페이지</h1>
+        <hr style="border: 0; margin-left: 70px; width: 1000px; height: 2px; background-color: #44546A;">
+        <div id="info_title">- 개인정보입력 -</div>
+        <fieldset>
+          <div>
+            <label for="name_input">이름</label>
+            <span>데베에 저장된 이름</span>
+          </div>
+          <div>
+            <label for="name_input">주민등록번호</label>
+            <span>데베에 저장된 주민번호</span>
+          </div>
+          <div>
+            <label for="gender_input">성별</label>
+            <input type="radio" name="gender" value="male" checked/><span>남</span>
+            <input type="radio" name="gender" value="female"/><span>여</span>
+          </div>
+          <div>
+            <label for="age_input">연령대</label>
+            <select name="age">
+              <option value="teenager"> ~ 만 18세</option>
+              <option value="youth"> 만 19세 ~ 만 29세</option>
+              <option value="middle_age"> 만 30세 ~ 만 49세</option>
+              <option value="old_age"> 만 50세 ~ 만 64세</option>
+              <option value="advanced_age"> 만 65세 ~</option>
+            </select>
+          </div>
+          <div>
+            <label for="IQ_input">소득분위</label>
+            <select name="income">
+              <option value="1">1구간</option>
+              <option value="2">2구간</option>
+              <option value="3">3구간</option>
+              <option value="4">4구간</option>
+              <option value="5">5구간</option>
+              <option value="6">6구간</option>
+              <option value="7">7구간</option>
+              <option value="8">8구간</option>
+              <option value="9">9구간</option>
+              <option value="10">10구간</option>
+            </select>
+          </div>
+          <div>
+            <label for="IQ_input">가구유형</label>
+            <select name="income">
+              <option value="1">해당없음</option>
+              <option value="2">다문화가구</option>
+              <option value="3">다자녀가구</option>
+              <option value="4">한부모가구</option>
+            </select>
+          </div>
+          <div>
+            <label for="residence_input">주민등록상 지역</label>
+            <select name="residence">
+              <option value="Gangwon">강원도</option>
+              <option value="Gyeonggi">경기도</option>
+              <option value="Gyeongsangnam">경상남도</option>
+              <option value="Gyeongsangbuk">경상북도</option>
+              <option value="Gwangju">광주광역시</option>
+              <option value="Daegu">대구광역시</option>
+              <option value="Busan">부산광역시</option>
+              <option value="Seoul">서울특별시</option>
+              <option value="Sejong">세종특별자치시</option>
+              <option value="Ulsan">울산광역시</option>
+              <option value="Incheon">인천광역시</option>
+              <option value="Jeollanam">전라남도</option>
+              <option value="Jeollabuk">전라북도</option>
+              <option value="Jeju">제주특별자치도</option>
+              <option value="Chungcheongnam">충청남도</option>
+              <option value="Chungcheongbuk">충청북도</option>
+            </select>
+          </div>
+        </fieldset>
+        <div class="info_btn">
+          <span class="info_submit"><a href="mypage_sub.html"><input type="submit" value="저장"></a></span>
+          <span class="info_cancle"><a href="index.html"><input type="submit" value="취소"></a></span>
+        </div>
+      </main>
+      <footer>
+        <section id="bottomMenu">
+          <ul id="bottomMenu_list">
+            <li>C087031 최효은</li>
+            <li>C089020 김지연</li>
+            <li>C089075 문상준</li>
+          </ul>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
